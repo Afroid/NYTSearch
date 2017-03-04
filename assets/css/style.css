@@ -1,0 +1,35 @@
+header{
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+#bigContainer{
+	width: 750px;
+}
+.container-fluid{
+	margin-bottom: 2%;
+}
+#form{
+	width: 100%;
+}
+#form input{
+  	padding: 8px 8px 8px 8px;
+  	width: 100%;
+  	font-size: 14px;
+  	color: #595959;	
+}
+
+#topBars{
+	color: white;
+	font-size: 24px;
+	text-align: left;
+	background-color: #262f57;
+}
+
+#searchOpt{
+	text-align: left;
+}
+
+.row{
+	margin-top: 1%;
+}
