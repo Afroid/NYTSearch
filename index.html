@@ -18,40 +18,42 @@
 	</header>
 
 	<div id="searchOpt" class="container-fluid row text-center">
-	<!-- <div class="row panel panel-primary"> -->
+
 		<form id="form" class="row col-md-12">
 			<div id="topBars" class="row col-md-12">
 				Search Parameters
 			</div>
+
 			<div class="row col-md-12">
 				<p>Search Term:</p>
-				<input type="text" name="Whole Name" placeholder="Enter Search Term">
+				<input id="search-term" type="text" name="Whole Name" placeholder="Enter Search Term">
 			</div>
-			<br>
+
 
 			<div class="row col-md-12">
 				<p>Number of Records to Retrieve</p>
-				<input type="text" name="E-mail" placeholder="example@gmail.com">
+				<input id="search-limit" type="text" name="E-mail" placeholder="example@gmail.com">
 			</div>
-			<br>
+
 
 			<div class="row col-md-12">
 				<p>Start Year(Optional)</p>
-				<input type="text" class="marginForForm" name="startYear"></input>
+				<input id="start-year" type="text" class="marginForForm" name="startYear"></input>
 			</div>
-			<br>
+
 
 			<div class="row col-md-12">
 				<p>End Year(Optional)</p>
-				<input type="text" class="marginForForm" name="endYear"></input>
+				<input id="end-year" type="text" class="marginForForm" name="endYear"></input>
 			</div>
+
 			<div id="searchClear" class="row col-md-12">
 				<button id="search" class="col-md-3" type="button" value="search">Search</button>
 				<button id="clear" class="col-md-3" type="button" value="search">Clear Results</button>
 			</div>
 
 		</form>
-	<!-- </div>	 -->
+
 	</div>
 
 	<div id="results" class="container-fluid row text-center">
@@ -60,6 +62,6 @@
 		</div>
 	</div>
 	</div>
-
+<script src="assets/javascript/script.js"></script>
 </body>
 </html>
